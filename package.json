@@ -1,0 +1,23 @@
+{
+	"name": "square_percolation_explorer",
+	"copyright": "Copyright © 2014, Andrea Bedini",
+	"authors": ["Andrea Bedini"],
+	"license": "BSD 2-clause",
+	"configurations": [
+		{
+			"name": "plane",
+			"versions": ["PLANE"],
+			"targetType": "executable",
+		},
+		{
+			"name": "fixed_boundaries",
+			"versions": ["FIXED_BOUNDARIES"],
+			"targetType": "executable",
+		},
+		{
+			"name": "periodic",
+			"versions": ["PERIODIC"],
+			"targetType": "executable",
+		}
+	]
+}
